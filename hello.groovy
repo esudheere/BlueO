@@ -8,6 +8,10 @@ pipeline{
             steps{
                 sh 'echo Hello'
             }
+
+            steps{
+                sh 'sh Groovy'
+            }
         }
     }
 }
